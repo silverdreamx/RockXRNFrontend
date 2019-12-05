@@ -93,8 +93,6 @@ export default function App() {
               <Text>Eth</Text>
             </View>
 
-            <Text></Text>
-
             <Text style={styles.title}>Pick your base currency!</Text>
             <View style={styles.rowContainer}>
               <Text>BTC</Text>
@@ -158,10 +156,10 @@ const styles = StyleSheet.create({
   },
   dataPicker: {
     flex: 10,
-    padding: 20
+    padding: 10
   },
   title: {
-    marginVertical: 10,
+    marginVertical: 5,
     fontSize: 20,
     textAlign: 'center'
   },
@@ -182,7 +180,7 @@ const styles = StyleSheet.create({
   },
   dataRetrieval: {
     flex: 10,
-    padding: 20,
+    padding: 10,
   },
   scrollView: {
     marginHorizontal: 20,
