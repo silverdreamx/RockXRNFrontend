@@ -16,7 +16,7 @@ On a MacOS, if you don't already have XCode installed, you can install it from [
 
 #### Running on Android simulator
 If you have not already installed Android Studio, you can do so [here](https://developer.android.com/studio/?gclid=CjwKCAiA8qLvBRAbEiwAE_ZzPfnS1a1nTfENSmiV7YHhSw6gySf825s0qOQznueAbgsj0dPRGON_UBoCFZMQAvD_BwE). Next, if you have not created an Android emulator, you can do so by following the instructions [here](https://developer.android.com/studio/run/emulator) and [here](https://developer.android.com/studio/run/managing-avds).
-If you have Android Studio open, navigate to Tools > AVD Manager, then start one of the emulator(s).
+With the Android Studio open, navigate to Tools > AVD Manager, then start one of the emulator(s).
 From here, go back to the web browser and click on the button to start Android emulator.
 
 #### Running on iOS device
