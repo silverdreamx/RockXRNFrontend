@@ -40,16 +40,21 @@ export default function App() {
 
         url += '&base_currency=' + baseCurrency;
 
+        setLoadingFlag(true);
+        setCurrentData('');
+
         await fetch(url)
         .then((response) => response.json())
         .then((responseJson) => {
             console.log('response received!');
             console.log('responseJson = ' + JSON.stringify(responseJson));
 
+            setLoadingFlag(false);
+
             if(responseJson.success) {
                 setCurrentData(JSON.stringify(responseJson));
             } else {
-                throw 'Error retrieving profile data!';
+                setCurrentData('Error retrieving data!');
             }
         });
     }
